@@ -12,18 +12,19 @@ import Footer from "../components/layout/Footer";
 const Rutas = () => {
   return (
     <BrowserRouter>
-      {/* Header y Navegacion */}
+      {/* Header y Navegación */}
       <HeaderNav />
       {/* Contenido Central */}
-      <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/inicio" element={<Inicio />} />
-        <Route path="/portafolio" element={<Portafolio />} />
-        <Route path="/servicios" element={<Servicios />} />
-        <Route path="/curriculum" element={<Curriculum />} />
-        <Route path="/contacto" element={<Contacto />} />
-      </Routes>
-
+      <section className="min-h-96">
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/inicio" element={<Inicio />} />
+          <Route path="/portafolio" element={<Portafolio />} />
+          <Route path="/servicios" element={<Servicios />} />
+          <Route path="/curriculum" element={<Curriculum />} />
+          <Route path="/contacto" element={<Contacto />} />
+        </Routes>
+      </section>
       {/* Footer */}
       <Footer />
     </BrowserRouter>

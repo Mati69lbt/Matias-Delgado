@@ -7,8 +7,8 @@ const HeaderNav = () => {
     <header className="bg-white p-4 shadow-md ">
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <span className="text-2xl font-bold">MD</span>
-          <h3 className="text-xl font-medium">Matias Delgado</h3>
+          <span className="text-6xl font-bold ml-10">MD</span>
+          <h3 className="text-xl font-medium w-1">Matias Delgado</h3>
         </div>
         <nav>
           <ul className="flex space-x-4">
