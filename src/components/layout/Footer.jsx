@@ -7,7 +7,11 @@ const Footer = () => {
   const formattedDate = currentDate
     .replace(" de ", ", ")
     .replace(/^\w/, (c) => c.toUpperCase());
-  return <footer className="text-center p-3 text-lg">Matías Delgado &copy; - {formattedDate}</footer>;
+  return (
+    <footer className="text-center p-3 text-lg border-t border-gray-300 mt-4">
+      Matías Delgado &copy; - {formattedDate}
+    </footer>
+  );
 };
 
 export default Footer;
