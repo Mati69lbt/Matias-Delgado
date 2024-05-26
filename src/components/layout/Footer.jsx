@@ -5,10 +5,10 @@ const Footer = () => {
   const options = { year: "numeric", month: "long" };
   const currentDate = new Intl.DateTimeFormat("es-ES", options).format(date);
   const formattedDate = currentDate
-    .replace(" de ", ", ")
+    .replace(" de ", " ")
     .replace(/^\w/, (c) => c.toUpperCase());
   return (
-    <footer className="text-center p-3 text-lg border-t border-gray-300 mt-4">
+    <footer className="text-center p-3 text-lg  mt-4 bg-white  ">
       Matías Delgado &copy; - {formattedDate}
     </footer>
   );
