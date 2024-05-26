@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Inicio = () => {
   return (
-    <div className="m-12 shadow-md rounded-md">
-      <p className="mb-4 text-lg text-justify m-4 pt-4">
+    <div className="m-3 sm:m-12 shadow-md rounded-md">
+      <p className="mb-4 text-lg text-left sm:text-justify m-4 pt-4">
         Soy <strong>Matías Daniel Delgado</strong>, desarrollador web y móvil
         con amplios conocimientos adquiridos a través de proyectos personales y
         bootcamps intensivos. Aunque no tengo experiencia laboral formal, he
@@ -46,11 +46,10 @@ const Inicio = () => {
       </p>
       <p className="text-lg">
         Gracias por visitar mi página. Espero que haya sido de su agrado. Si es
-        así,
+        así,{" "}
         <Link to="/contacto" className="text-blue-500 hover:underline">
-          contáctese conmigo
+          contáctese conmigo.
         </Link>
-        .
       </p>
     </div>
   );
