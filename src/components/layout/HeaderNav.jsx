@@ -26,6 +26,18 @@ const HeaderNav = () => {
             </li>
             <li>
               <NavLink
+                to="/inicio"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-gray-600 hover:bg-gray-200 p-2 rounded font-bold text-xl"
+                    : "text-gray-600 hover:bg-gray-200 p-2 rounded text-xl"
+                }
+              >
+                Sobre Mi
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to="/portafolio"
                 className={({ isActive }) =>
                   isActive

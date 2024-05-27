@@ -8,6 +8,7 @@ import Curriculum from "../components/Curriculum";
 import Contacto from "../components/Contacto";
 import HeaderNav from "../components/layout/HeaderNav";
 import Footer from "../components/layout/Footer";
+import Home from "../components/Home";
 
 const Rutas = () => {
   return (
@@ -17,7 +18,8 @@ const Rutas = () => {
       {/* Contenido Central */}
       <section className="min-h-96">
         <Routes>
-          <Route path="/" element={<Inicio />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/portafolio" element={<Portafolio />} />
           <Route path="/servicios" element={<Servicios />} />
