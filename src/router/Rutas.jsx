@@ -16,7 +16,7 @@ const Rutas = () => {
       {/* Header y Navegación */}
       <HeaderNav />
       {/* Contenido Central */}
-      <section className="min-h-96">
+      <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -26,7 +26,7 @@ const Rutas = () => {
           <Route path="/curriculum" element={<Curriculum />} />
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
-      </section>
+      </main>
       {/* Footer */}
       <Footer />
     </BrowserRouter>
