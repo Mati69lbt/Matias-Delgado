@@ -12,6 +12,7 @@ const Imagenes = ({ imagenes }) => {
       autoPlay={true}
       interval={3000}
       centerMode={true}
+      className="bg-slate-100 rounded-xl"
     >
       {imagenes.map((imagen, index) => {
         return (
