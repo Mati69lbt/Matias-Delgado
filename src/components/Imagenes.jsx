@@ -25,6 +25,7 @@ const Imagenes = ({ imagenes }) => {
       <Carousel
         showThumbs={true}
         showStatus={true}
+        showIndicators={false}
         infiniteLoop={true}
         useKeyboardArrows={true}
         autoPlay={true}
