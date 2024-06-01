@@ -1,4 +1,4 @@
-// cspell: ignore Proyect, ContadorCalorias, Carlorías, Langhi, GuarderiaPelis
+// cspell: ignore Proyect, ContadorCalorias, Carlorías, Langhi, GuarderiaPelis, clapp, Cotizador, TETETI, CtrlPresup
 import ca01 from "../assets/ContadorCalorias/ca01.jpeg";
 import ca02 from "../assets/ContadorCalorias/cc02.jpeg";
 // -----------------------
@@ -42,6 +42,31 @@ import n01 from "../assets/News/n01.png";
 import n02 from "../assets/News/n02.jpeg";
 import n03 from "../assets/News/n03.jpeg";
 // -----------------------
+import noticias01 from "../assets/Noticias/01.jpeg";
+import noticias02 from "../assets/Noticias/02.jpeg";
+// -----------------------
+import clapp01 from "../assets/CLApp/clapp01.png";
+import clapp02 from "../assets/CLApp/clapp02.jpeg";
+// -----------------------
+import csa01 from "../assets/CotizadorSeguros/csa01.jpeg";
+import csa02 from "../assets/CotizadorSeguros/csa02.png";
+import csa03 from "../assets/CotizadorSeguros/csa03.jpeg";
+// -----------------------
+import clima01 from "../assets/clima/clima01.jpeg";
+import clima02 from "../assets/clima/clima02.png";
+// -----------------------
+import ttt01 from "../assets/TETETI/ttt01.jpeg";
+import ttt02 from "../assets/TETETI/ttt02.png";
+import ttt03 from "../assets/TETETI/ttt03.jpeg";
+import ttt04 from "../assets/TETETI/ttt04.jpeg";
+import ttt05 from "../assets/TETETI/ttt05.png";
+// -----------------------
+import cdp01 from "../assets/CtrlPresup/cdp01.jpeg";
+import cdp02 from "../assets/CtrlPresup/cdp02.jpeg";
+import cdp03 from "../assets/CtrlPresup/cdp3.png";
+import cdp04 from "../assets/CtrlPresup/cpd4.jpeg";
+import cdp05 from "../assets/CtrlPresup/cdp5.png";
+import cdp06 from "../assets/CtrlPresup/cdp6.jpeg";
 
 const ProyectData = [
   {
@@ -170,13 +195,74 @@ const ProyectData = [
     DeployLink: "https://newssemistatics.vercel.app/",
   },
   {
-    Date: "",
-    Title: "",
-    Description: "",
-    Technologies: [],
-    Images: [],
-    GithubLink: "",
+    Date: "Julio, 23",
+    Title: "Buscador de Noticias",
+    Description:
+      "Esta es una aplicación de búsqueda de noticias que consume la API de NewsAPI. La misma no permite el despliegue público",
+    Technologies: ["React", "Vite", "Axios", "Material-UI "],
+    Images: [noticias01, noticias02],
+    GithubLink: "https://github.com/Mati69lbt/NoticiasApp",
     DeployLink: "",
+  },
+  {
+    Date: "Julio, 23",
+    Title: "Temperatura Actual",
+    Description:
+      "Esta aplicación muestra la temperatura actual de cualquier ciudad. Si deseas información meteorológica más detallada, tengo otra aplicación que brinda mucha más información.",
+    Technologies: ["React", "Vite", "Axios"],
+    Images: [clapp01, clapp02],
+    GithubLink: "https://github.com/Mati69lbt/ClimaApp-Context",
+    DeployLink: "https://clima-app-gamma.vercel.app/",
+  },
+  {
+    Date: "Julio, 23",
+    Title: "Cotizador de Seguros para Autos",
+    Description:
+      "Esta es una aplicación de React que permite a los usuarios obtener una cotización para un seguro de automóvil.",
+    Technologies: ["React", "Vite", "Tailwind CSS"],
+    Images: [csa01, csa02, csa03],
+    GithubLink: "https://github.com/Mati69lbt/cotizaseguroauto",
+    DeployLink: "https://cotizaseguroauto.vercel.app/",
+  },
+  {
+    Date: "Julio, 23",
+    Title: "Administrador de Clientes",
+    Description:
+      "Este proyecto es un CRM (Customer Relationship Management) desarrollado con React y Vite, y utiliza Tailwind CSS para el diseño y estilos. ",
+    Technologies: ["React", "Vite", "Tailwind CSS", "Firebase"],
+    Images: [],
+    GithubLink: "https://github.com/Mati69lbt/AdminClientes",
+    DeployLink: "",
+  },
+  {
+    Date: "Septiembre, 22",
+    Title: "1ra App de Clima",
+    Description:
+      "Mi primer app de clima, consumiendo una api externa, obteniendo mucha información",
+    Technologies: ["React", "Redux"],
+    Images: [clima01, clima02],
+    GithubLink: "https://github.com/Mati69lbt/clima",
+    DeployLink: "https://clima-mati69lbt.vercel.app/",
+  },
+  {
+    Date: "Marzo, 23",
+    Title: "Ta-Te-Ti",
+    Description:
+      "Web de entretenimiento que te permite disfrutar del clásico juego de tres en raya, también conocido como Tres en línea. La aplicación ha sido desarrollada utilizando JavaScript, React y Vite, y está diseñada para ofrecer una experiencia de juego divertida y fácil de usar.",
+    Technologies: ["React", "Vite", "JavaScript", "CSS"],
+    Images: [ttt01, ttt05, ttt03, ttt04, ttt02],
+    GithubLink: "https://github.com/Mati69lbt/tateti",
+    DeployLink: "https://tatetilbt.netlify.app/",
+  },
+  {
+    Date: "Abril, 23",
+    Title: "Control del Presupuestos",
+    Description:
+      "Aplicación que te ayuda a gestionar y controlar tus gastos personales. Con esta aplicación, puedes almacenar tu presupuesto y filtrar tus gastos para tener un mejor control sobre tus finanzas.",
+    Technologies: ["React", "VIte", "CSS"],
+    Images: [cdp01, cdp02, cdp03, cdp04, cdp05, cdp06],
+    GithubLink: "https://github.com/Mati69lbt/Control-Presupuesto",
+    DeployLink: "https://mati69lbt.github.io/Control-Presupuesto/",
   },
   {
     Date: "",
