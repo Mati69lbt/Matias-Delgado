@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import Imagenes from "./Imagenes";
 
 const Proyectos = ({ proyecto }) => {
+  
   return (
     <div className="p-4 m-4 bg-white rounded-lg shadow-lg">
       <h2 className="text-xl font-bold mb-2">{proyecto.Title}</h2>
