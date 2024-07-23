@@ -3,7 +3,7 @@
 import { NavLink } from "react-router-dom";
 import Download from "../Download";
 import Swal from "sweetalert2";
-import pdfFile from "../../download/MatiasDelgadoCV24.pdf";
+import pdfFile from "../../download/MDelgadoJ24.pdf";
 
 const HeaderNav = () => {
   const handleDownloadClick = (event) => {
@@ -11,7 +11,7 @@ const HeaderNav = () => {
 
     Swal.fire({
       title: "¿Quieres descargar mi curriculum?",
-      text: "Gracias por ver mi pagina web",
+      text: "Gracias por visitar mi pagina web",
       icon: "question",
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
@@ -23,7 +23,7 @@ const HeaderNav = () => {
         // Usar require para obtener la ruta del archivo PDF en src
         const link = document.createElement("a");
         link.href = pdfFile;
-        link.setAttribute("download", "MatiasDelgadoCV24.pdf");
+        link.setAttribute("download", "MatiasDelgado.pdf");
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -76,18 +76,6 @@ const HeaderNav = () => {
                 }
               >
                 Portafolio
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/curriculum"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-gray-600 hover:bg-gray-200 p-2 rounded font-bold text-xl"
-                    : "text-gray-600 hover:bg-gray-200 p-2 rounded text-xl"
-                }
-              >
-                Curriculum
               </NavLink>
             </li>
             <li>

@@ -5,6 +5,10 @@ const Contacto = () => {
   if (state.succeeded) {
     document.getElementById("contact-form").reset();
   }
+  const a = [1, 2, 3];
+  console.log(a);
+  const b = [4, 5, 6];
+  console.log(a.concat(b));
 
   return (
     <div>

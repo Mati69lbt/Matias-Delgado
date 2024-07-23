@@ -38,14 +38,13 @@ const Imagenes = ({ imagenes }) => {
           <div
             key={index}
             className="relative flex justify-center items-center w-full h-auto"
-            >
+          >
             <div>
-            <img
-              src={imagen}
-              alt={`imagen-${index}`}
-              className="w-full h-auto max-h-96 object-scale-down mx-auto p-4"
-            />
-
+              <img
+                src={imagen}
+                alt={`imagen-${index}`}
+                className="w-full h-auto max-h-96 object-scale-down mx-auto p-4"
+              />
             </div>
             <button
               onClick={() => openModal(imagen)}
