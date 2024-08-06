@@ -32,6 +32,16 @@ const Proyectos = ({ proyecto }) => {
         >
           Ver en GitHub
         </NavLink>
+        {proyecto.GithubBack && (
+          <NavLink
+            to={proyecto.GithubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Ver Backend
+          </NavLink>
+        )}
       </div>
       <p className="text-right">{proyecto.Date}</p>
     </div>

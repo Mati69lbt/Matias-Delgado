@@ -67,6 +67,17 @@ import cdp03 from "../assets/CtrlPresup/cdp3.png";
 import cdp04 from "../assets/CtrlPresup/cpd4.jpeg";
 import cdp05 from "../assets/CtrlPresup/cdp5.png";
 import cdp06 from "../assets/CtrlPresup/cdp6.jpeg";
+// -----------------------
+import cg01 from "../assets/ControlGastos/cg01.jpeg";
+import cg02 from "../assets/ControlGastos/cg02.jpeg";
+import cg03 from "../assets/ControlGastos/cg03.jpeg";
+import cg04 from "../assets/ControlGastos/cg04.jpeg";
+// -----------------------
+import RS01 from "../assets/RS/RS01.jpeg";
+import RS02 from "../assets/RS/RS02.jpeg";
+import RS03 from "../assets/RS/RS03.jpeg";
+import RS04 from "../assets/RS/RS04.jpeg";
+import RS05 from "../assets/RS/RS05.jpeg";
 
 const ProyectData = [
   {
@@ -102,7 +113,7 @@ const ProyectData = [
       "MongoDB",
       "JWT ",
     ],
-    Images: [],
+    Images: [cg01, cg02, cg03, cg04],
     GithubLink: "",
     DeployLink: "",
   },
@@ -111,9 +122,17 @@ const ProyectData = [
     Title: "Red Social",
     Description:
       "Clonación de una red social, con base de datos y un atractivo visual interesante",
-    Technologies: [],
-    Images: [],
-    GithubLink: "",
+    Technologies: [
+      "React",
+      "React-Router-Dom",
+      "Express",
+      "Moment ",
+      "Mongoose",
+      "Multer",
+    ],
+    Images: [RS01, RS02, RS03, RS04, RS05],
+    GithubBack: "https://github.com/Mati69lbt/redsocial_backend",
+    GithubLink: "https://github.com/Mati69lbt/redsocial_front",
     DeployLink: "",
   },
   {
