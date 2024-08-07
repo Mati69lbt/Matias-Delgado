@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import Imagenes from "./Imagenes";
 
 const Proyectos = ({ proyecto }) => {
-  
   return (
     <div className="p-4 m-4 bg-white rounded-lg shadow-lg">
       <h2 className="text-xl font-bold mb-2">{proyecto.Title}</h2>
@@ -16,14 +15,17 @@ const Proyectos = ({ proyecto }) => {
         <p className="text-gray-700">{proyecto.Technologies.join(" | ")}</p>
       </div>
       <div className="flex space-x-4">
-        <NavLink
-          to={proyecto.DeployLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:underline"
-        >
-          Ver Proyecto
-        </NavLink>
+        {proyecto.DeployLink && (
+          <NavLink
+            to={proyecto.DeployLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Ver Proyecto
+          </NavLink>
+        )}
+
         <NavLink
           to={proyecto.GithubLink}
           target="_blank"
@@ -39,7 +41,7 @@ const Proyectos = ({ proyecto }) => {
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
           >
-            Ver Backend
+            Ver Backend GitHub
           </NavLink>
         )}
       </div>

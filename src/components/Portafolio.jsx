@@ -1,4 +1,4 @@
-// cspell: ignore Proyect, ContadorCalorias, Carlorías
+// cspell: ignore Proyect, ContadorCalorias, Calorías
 import { useEffect, useState } from "react";
 import Proyectos from "./Proyectos";
 import ProyectData from "../download/ProyectData";

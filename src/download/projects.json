@@ -1,7 +1,7 @@
 [
   {
     "Date": "Mayo, 24",
-    "Title": "Contador de Carlorías",
+    "Title": "Contador de Calorías",
     "Description": "Lleva aun registro diario de tu deficit o superávit  calórico",
     "Technologies": ["React", "TypeScript", "Tailwind CSS", "Vite"],
     "Images": [

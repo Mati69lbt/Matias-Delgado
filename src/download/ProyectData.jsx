@@ -1,4 +1,4 @@
-// cspell: ignore Proyect, ContadorCalorias, Carlorías, Langhi, GuarderiaPelis, clapp, Cotizador, TETETI, CtrlPresup
+// cspell: ignore Proyect, ContadorCalorias, Calorías, Langhi, GuarderiaPelis, clapp, Cotizador, TETETI, CtrlPresup
 import ca01 from "../assets/ContadorCalorias/ca01.jpeg";
 import ca02 from "../assets/ContadorCalorias/cc02.jpeg";
 // -----------------------
@@ -82,7 +82,7 @@ import RS05 from "../assets/RS/RS05.jpeg";
 const ProyectData = [
   {
     Date: "Mayo, 24",
-    Title: "Contador de Carlorías",
+    Title: "Contador de Calorías",
     Description:
       "Lleva aun registro diario de tu deficit o superávit  calórico",
     Technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
@@ -114,7 +114,8 @@ const ProyectData = [
       "JWT ",
     ],
     Images: [cg01, cg02, cg03, cg04],
-    GithubLink: "",
+    GithubBack: "https://github.com/Mati69lbt/ControlDeGastos_Back",
+    GithubLink: "https://github.com/Mati69lbt/ControlDeGastos_Front",
     DeployLink: "",
   },
   {
