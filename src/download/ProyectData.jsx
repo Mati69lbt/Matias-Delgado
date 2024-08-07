@@ -78,6 +78,12 @@ import RS02 from "../assets/RS/RS02.jpeg";
 import RS03 from "../assets/RS/RS03.jpeg";
 import RS04 from "../assets/RS/RS04.jpeg";
 import RS05 from "../assets/RS/RS05.jpeg";
+// -----------------------
+import blog01 from "../assets/Blog/Blog01.jpeg";
+import blog02 from "../assets/Blog/Blog02.jpeg";
+import blog03 from "../assets/Blog/Blog03.jpeg";
+import blog04 from "../assets/Blog/Blog04.jpeg";
+import blog05 from "../assets/Blog/Blog05.jpeg";
 
 const ProyectData = [
   {
@@ -134,6 +140,24 @@ const ProyectData = [
     Images: [RS01, RS02, RS03, RS04, RS05],
     GithubBack: "https://github.com/Mati69lbt/redsocial_backend",
     GithubLink: "https://github.com/Mati69lbt/redsocial_front",
+    DeployLink: "",
+  },
+  {
+    Date: "Enero, 24",
+    Title: "Blog",
+    Description:
+      "Desarrollé un blog que permite crear, leer, actualizar y eliminar artículos, los cuales pueden incluir imágenes. Además, implementé un motor de búsqueda para encontrar artículos de manera rápida y eficiente. El proyecto también incluye un apartado donde se puede acceder al código fuente tanto del front-end como del back-end, proporcionando transparencia y detalle sobre la implementación técnica.",
+    Technologies: [
+      "React",
+      "React-Router-Dom",
+      "Express",
+      "Moment ",
+      "Mongoose",
+      "Multer",
+    ],
+    Images: [blog01, blog02, blog03, blog04, blog05],
+    GithubBack: "https://github.com/Mati69lbt/Blog_backend",
+    GithubLink: "https://github.com/Mati69lbt/Blog_frontend",
     DeployLink: "",
   },
   {
