@@ -1,4 +1,4 @@
-// cspell: ignore Proyect, ContadorCalorias, Calorías, Langhi, GuarderiaPelis, clapp, Cotizador, TETETI, CtrlPresup
+// cspell: ignore Proyect, ContadorCalorias, Calorías, Langhi, GuarderiaPelis, clapp, Cotizador, TETETI, CtrlPresup, toastify, Zustand
 import ca01 from "../assets/ContadorCalorias/ca01.jpeg";
 import ca02 from "../assets/ContadorCalorias/cc02.jpeg";
 // -----------------------
@@ -84,6 +84,11 @@ import blog02 from "../assets/Blog/Blog02.jpeg";
 import blog03 from "../assets/Blog/Blog03.jpeg";
 import blog04 from "../assets/Blog/Blog04.jpeg";
 import blog05 from "../assets/Blog/Blog05.jpeg";
+// -----------------------
+import pz01 from "../assets/PacientesZustand/pz01.jpeg";
+import pz02 from "../assets/PacientesZustand/pz02.png";
+import pz03 from "../assets/PacientesZustand/pz03.jpeg";
+import pz04 from "../assets/PacientesZustand/pz04.png";
 
 const ProyectData = [
   {
@@ -309,13 +314,14 @@ const ProyectData = [
     DeployLink: "https://mati69lbt.github.io/Control-Presupuesto/",
   },
   {
-    Date: "",
-    Title: "",
-    Description: "",
-    Technologies: [],
-    Images: [],
-    GithubLink: "",
-    DeployLink: "",
+    Date: "Agosto, 24",
+    Title: "Pacientes Zustand",
+    Description:
+      "Pacientes Zustand es una aplicación CRUD diseñada para el seguimiento de pacientes en una veterinaria. Utiliza react-hook-form para la creación de formularios con validaciones, react-toastify para mostrar notificaciones, y Zustand para la gestión eficiente del estado de la aplicación. Es un proyecto desarrollado con React, TypeScript, y TailwindCSS, y está optimizado para un rendimiento rápido y una experiencia de usuario fluida.",
+    Technologies: ["React", "Zustand", "TailwindCSS", "TypeScript", "Vite"],
+    Images: [pz01, pz02, pz03, pz04],
+    GithubLink: "https://github.com/Mati69lbt/Pacientes-Veterinaria",
+    DeployLink: "https://mati69lbt.github.io/Pacientes-Veterinaria/",
   },
   {
     Date: "",
