@@ -91,10 +91,10 @@ import pz03 from "../assets/PacientesZustand/pz03.jpeg";
 import pz04 from "../assets/PacientesZustand/pz04.png";
 // -----------------------
 import apc01 from "../assets/AdmProdCom/apc1.jpeg";
-import apc02 from "../assets/AdmProdCom/apc2.jpeg";
+import apc02 from "../assets/AdmProdCom/apc2.png";
 import apc03 from "../assets/AdmProdCom/apc3.jpeg";
-import apc04 from "../assets/AdmProdCom/apc4.jpeg";
-import apc05 from "../assets/AdmProdCom/apc5.jpeg";
+import apc04 from "../assets/AdmProdCom/apc4.png";
+import apc05 from "../assets/AdmProdCom/apc5.png";
 import apc06 from "../assets/AdmProdCom/apc6.jpeg";
 
 const ProyectData = [
@@ -331,7 +331,7 @@ const ProyectData = [
     DeployLink: "https://mati69lbt.github.io/Pacientes-Veterinaria/",
   },
   {
-    Date: "Agosto, 24",
+    Date: "Septiembre, 24",
     Title: "Administrador de Artículos de Computación",
     Description:
       "este crud de productos de computación que incluye tanto el back-end como el front-end. El proyecto permite gestionar productos, con funcionalidades como creación, lectura, actualización y eliminación. Además, cuenta con una documentación completa que describe su arquitectura, endpoints y flujos de trabajo.",
