@@ -89,6 +89,13 @@ import pz01 from "../assets/PacientesZustand/pz01.jpeg";
 import pz02 from "../assets/PacientesZustand/pz02.png";
 import pz03 from "../assets/PacientesZustand/pz03.jpeg";
 import pz04 from "../assets/PacientesZustand/pz04.png";
+// -----------------------
+import apc01 from "../assets/AdmProdCom/apc1.jpeg";
+import apc02 from "../assets/AdmProdCom/apc2.jpeg";
+import apc03 from "../assets/AdmProdCom/apc3.jpeg";
+import apc04 from "../assets/AdmProdCom/apc4.jpeg";
+import apc05 from "../assets/AdmProdCom/apc5.jpeg";
+import apc06 from "../assets/AdmProdCom/apc6.jpeg";
 
 const ProyectData = [
   {
@@ -324,13 +331,24 @@ const ProyectData = [
     DeployLink: "https://mati69lbt.github.io/Pacientes-Veterinaria/",
   },
   {
-    Date: "",
-    Title: "",
-    Description: "",
-    Technologies: [],
-    Images: [],
-    GithubLink: "",
-    DeployLink: "",
+    Date: "Septiembre, 24",
+    Title: "Administrador de Artículos de Computación",
+    Description:
+      "este crud de productos de computación que incluye tanto el back-end como el front-end. El proyecto permite gestionar productos, con funcionalidades como creación, lectura, actualización y eliminación. Además, cuenta con una documentación completa que describe su arquitectura, endpoints y flujos de trabajo.",
+    Technologies: [
+      "React",
+      "React Router DOM",
+      "TailwindCSS",
+      "Vite",
+      "Express",
+      "TypeScript",
+      "Sequelize",
+      "PostgreSQL",
+    ],
+    Images: [apc01, apc02, apc03, apc04, apc05, apc06],
+    GithubBack: "https://github.com/Mati69lbt/Back_adm_prod",
+    GithubLink: "https://github.com/Mati69lbt/Front_adm_prod",
+    DeployLink: "https://admin-prod-comp.vercel.app/",
   },
   {
     Date: "",
