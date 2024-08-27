@@ -331,7 +331,7 @@ const ProyectData = [
     DeployLink: "https://mati69lbt.github.io/Pacientes-Veterinaria/",
   },
   {
-    Date: "Septiembre, 24",
+    Date: "Agosto, 24",
     Title: "Administrador de Artículos de Computación",
     Description:
       "este crud de productos de computación que incluye tanto el back-end como el front-end. El proyecto permite gestionar productos, con funcionalidades como creación, lectura, actualización y eliminación. Además, cuenta con una documentación completa que describe su arquitectura, endpoints y flujos de trabajo.",
