@@ -92,10 +92,29 @@
     "DeployLink": "https://mati69lbt.github.io/HeroesApp/#/login"
   },
   {
-    "Date": "",
-    "Title": "",
-    "Description": "",
-    "Technologies": [],
+    "Date": "Febrero 25",
+    "Title": "UpTask",
+    "Description": "App MERN para gestionar tareas con múltiples estados, colaboración entre usuarios y control de roles. Implementé frontend y backend, con autenticación, validaciones, notificaciones y organización visual.",
+    "Technologies": [
+      "TypeScript",
+      "React",
+      "Vite",
+      "TailwindCSS",
+      "React Hook Form",
+      "Zod",
+      "React Router DOM",
+      "Axios",
+      "React Toastify",      
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Express Validator",
+      "Nodemailer",
+      "dotenv",
+      "bcrypt"
+    ],
     "Images": [],
     "GithubLink": "",
     "DeployLink": ""

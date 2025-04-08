@@ -1,4 +1,4 @@
-// cspell: ignore Proyect, ContadorCalorias, Calorías, Langhi, GuarderiaPelis, clapp, Cotizador, TETETI, CtrlPresup, toastify, Zustand
+// cspell: ignore Proyect, ContadorCalorias, Calorías, Langhi, GuarderiaPelis, clapp, Cotizador, TETETI, CtrlPresup, toastify, Zustand, uptask, MERN
 import ca01 from "../assets/ContadorCalorias/ca01.jpeg";
 import ca02 from "../assets/ContadorCalorias/cc02.jpeg";
 // -----------------------
@@ -96,6 +96,17 @@ import apc03 from "../assets/AdmProdCom/apc3.jpeg";
 import apc04 from "../assets/AdmProdCom/apc4.png";
 import apc05 from "../assets/AdmProdCom/apc5.png";
 import apc06 from "../assets/AdmProdCom/apc6.jpeg";
+// -----------------------
+import up001 from "../assets/uptask/up001.jpeg";
+import up002 from "../assets/uptask/up002.jpeg";
+import up003 from "../assets/uptask/up003.jpeg";
+import up004 from "../assets/uptask/up004.jpeg";
+import up005 from "../assets/uptask/up005.jpeg";
+import up006 from "../assets/uptask/up006.jpeg";
+import up007 from "../assets/uptask/up007.jpeg";
+import up008 from "../assets/uptask/up008.jpeg";
+import up009 from "../assets/uptask/up009.jpeg";
+import up010 from "../assets/uptask/up010.jpeg";
 
 const ProyectData = [
   {
@@ -351,11 +362,41 @@ const ProyectData = [
     DeployLink: "https://admin-prod-comp.vercel.app/",
   },
   {
-    Date: "",
-    Title: "",
-    Description: "",
-    Technologies: [],
-    Images: [],
+    Date: "Febrero, 25",
+    Title: "UpTask",
+    Description:
+      "App MERN para gestionar tareas con múltiples estados, colaboración entre usuarios y control de roles. Implementé frontend y backend, con autenticación, validaciones, notificaciones y organización visual.",
+    Technologies: [
+      "TypeScript",
+      "React",
+      "Vite",
+      "TailwindCSS",
+      "React Hook Form",
+      "Zod",
+      "React Router DOM",
+      "Axios",
+      "React Toastify",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Express Validator",
+      "Nodemailer",
+      "bcrypt",
+    ],
+    Images: [
+      up001,
+      up002,
+      up003,
+      up004,
+      up005,
+      up006,
+      up007,
+      up008,
+      up009,
+      up010,
+    ],
     GithubLink: "",
     DeployLink: "",
   },
