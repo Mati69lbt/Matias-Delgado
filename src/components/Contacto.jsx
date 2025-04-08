@@ -39,6 +39,18 @@ const Contacto = () => {
                 Github
               </a>
             </p>
+            <div className="flex flex-col items-center mt-4">
+              <a
+                href="https://websmultimedia.com/contador-de-visitas-gratis"
+                title="Contador De Visitas Gratis"
+              >
+                <img
+                  style={{ border: "0px solid", display: "inline" }}
+                  alt="contador de visitas"
+                  src="https://websmultimedia.com/contador-de-visitas.php?id=20637"
+                />
+              </a>
+            </div>
           </div>
         </div>
         <div className="flex justify-center">
