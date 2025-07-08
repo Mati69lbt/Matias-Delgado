@@ -107,8 +107,30 @@ import up007 from "../assets/uptask/up007.jpeg";
 import up008 from "../assets/uptask/up008.jpeg";
 import up009 from "../assets/uptask/up009.jpeg";
 import up010 from "../assets/uptask/up010.jpeg";
+// -----------------------
+import a from "../assets/pesData/a.png";
+import b from "../assets/pesData/b.png";
+import c from "../assets/pesData/c.png";
+import d from "../assets/pesData/d.png";
+import e from "../assets/pesData/e.png";
+import f from "../assets/pesData/f.png";
+import g from "../assets/pesData/g.png";
+import h from "../assets/pesData/h.png";
+import i from "../assets/pesData/i.png";
+import k from "../assets/pesData/k.png";
+import l from "../assets/pesData/l.png";
+// -----------------------
 
 const ProyectData = [
+  {
+    Date: "Julio, 25",
+    Title: "Pes Data",
+    Description: "Aplicación personalizada sobre las estadísticas del PES 2019",
+    Technologies: ["React", "Tailwind CSS", "Vite", "react-router-dom"],
+    Images: [a, b, c, d, e, f, g, h, i, k, l],
+    GithubLink: "https://github.com/Mati69lbt/Pes_Data",
+    DeployLink: "https://mati69lbt.github.io/Pes_Data/",
+  },
   {
     Date: "Mayo, 24",
     Title: "Contador de Calorías",
